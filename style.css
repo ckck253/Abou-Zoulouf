@@ -1,0 +1,47 @@
+.img{
+  display:flex;
+  justify-content:center;
+  margin-bottom:30px;
+}
+.desc{
+  display:flex;
+  justify-content:space-arround;
+}
+.price{
+  margin-top:30px;
+}
+.ar{
+  text-align:right;
+}
+.menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 40px;
+    }
+
+    .left {
+      width: 45%;
+    }
+
+    .right {
+      width: 45%;
+      text-align: right;
+      direction: rtl;
+      font-family: 'Amiri', serif;
+    }
+
+    .price {
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+
+    .title {
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+
+    .description {
+      margin-top: 5px;
+      font-size: 1em;
+    }
